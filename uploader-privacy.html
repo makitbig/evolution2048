@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blucos Uploader — Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>Blucos Uploader · Effective November 14, 2026</p>
+  </header>
+  <main>
+    <section>
+      <h2>The short version</h2>
+      <ul>
+        <li>Blucos Uploader is an internal tool. Its only user is Blucos, and the only Google account it signs in to is our own YouTube channel's.</li>
+        <li>It uses the YouTube API Services only to upload our own videos to that channel and to read the channel's name.</li>
+        <li>It collects no data about any other person, has no server, and shares nothing with third parties.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>1. YouTube API Services</h2>
+      <p>Blucos Uploader uses the YouTube API Services. By using it you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> (<a href="https://policies.google.com/privacy">http://www.google.com/policies/privacy</a>).</p>
+    </section>
+
+    <section>
+      <h2>2. What the tool accesses</h2>
+      <p>After our channel owner signs in with Google OAuth 2.0, the tool requests two scopes:</p>
+      <ul>
+        <li><b>youtube.upload</b> — to upload our own videos, with the title, description and tags we write.</li>
+        <li><b>youtube.readonly</b> — only to read our own channel's name once, to confirm that it signed in to the right channel.</li>
+      </ul>
+      <p>It does not access other users' channels, comments, subscribers, analytics or any other YouTube data.</p>
+    </section>
+
+    <section>
+      <h2>3. What is stored, and where</h2>
+      <ul>
+        <li><b>OAuth token.</b> The access and refresh token for our channel is saved in one file on our own computer, readable only by our user account. It is never uploaded anywhere else.</li>
+        <li><b>Upload log.</b> After each upload the tool writes the date and the resulting video link to a local log file.</li>
+        <li>No API data is sent to any server we run (we have none), sold, or shared with anyone.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Deleting data and revoking access</h2>
+      <p>Access can be revoked at any time from the Google Account security settings page: <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>. When access is revoked, or when we stop using the tool, we delete the token file and the local log from our computer. Stored data is kept no longer than 30 days after access ends. You can also ask us to delete anything by emailing the address below; we will do it within 7 days.</p>
+    </section>
+
+    <section>
+      <h2>5. Cookies and tracking</h2>
+      <p>The tool is a command-line script. It does not use cookies, device identifiers, analytics or advertising.</p>
+    </section>
+
+    <section>
+      <h2>6. Changes and contact</h2>
+      <p>We will post any changes on this page and update the date above.</p>
+      <p>Blucos · <a href="mailto:blucos.games@gmail.com">blucos.games@gmail.com</a></p>
+    </section>
+  </main>
+  <footer><p><a href="uploader.html">← Blucos Uploader</a></p></footer>
+</body>
+</html>
